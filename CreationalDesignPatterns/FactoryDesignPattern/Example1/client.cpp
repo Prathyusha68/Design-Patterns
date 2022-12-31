@@ -25,7 +25,7 @@ int main()
         if (toy)
         {
             toy->createToy();
-            delete toy;
+            //delete toy;
         }
     }
     cout << "Exit.." << endl;

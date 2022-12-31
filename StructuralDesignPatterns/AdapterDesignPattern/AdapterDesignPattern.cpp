@@ -26,7 +26,7 @@ public:
     }
 };
 
-class Adapter : public Adaptee, Target
+class Adapter : public Target
 {
     Adaptee *adapt = NULL;
 

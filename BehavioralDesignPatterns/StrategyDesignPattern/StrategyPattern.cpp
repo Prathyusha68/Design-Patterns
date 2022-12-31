@@ -37,6 +37,7 @@ public:
     {
     }
 
+    /* optional - if required to change after object creation */
     void setStrategy(unique_ptr<Strategy> &&strategy)
     {
         this->startegy = std::move(strategy);

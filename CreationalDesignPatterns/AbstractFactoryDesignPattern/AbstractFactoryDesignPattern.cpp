@@ -86,7 +86,7 @@ public:
     }
 };
 
-/* GUI Abstract Factory Inetrface */
+/* GUI Abstract Factory Interface */
 class GUIAbstractFactory
 {
 

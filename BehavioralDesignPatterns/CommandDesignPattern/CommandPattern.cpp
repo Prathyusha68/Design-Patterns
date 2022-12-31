@@ -1,3 +1,10 @@
+/**
+ * Command is behavioral design pattern that converts requests or simple operations into objects.
+ * 
+ * 
+ * Encapsulates a request as an object, thereby letting us parameterize other objects with different requests,
+ * queue or log requests, and support undoable operations.
+ */
 #include <iostream>
 using namespace std;
 
@@ -33,7 +40,7 @@ public:
             delete light;
     }
 
-    LightOnCommand(Light *Light) : light{light}
+    LightOnCommand(Light *light) : light{light}
     {
     }
 
