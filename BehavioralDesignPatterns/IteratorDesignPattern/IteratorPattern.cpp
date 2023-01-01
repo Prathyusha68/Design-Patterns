@@ -27,6 +27,10 @@ template <class containerType>
 class Iterator
 {
     containerType *container;
+    /**
+     * Note: The variable declared with auto keyword should be initialized at the time of its declaration only
+     * or else there will be a compile-time error. So, we can't use auto here.
+     */
     list<Product>::iterator iter;
 
 public:
