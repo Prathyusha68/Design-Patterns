@@ -1,3 +1,7 @@
+/**
+ * Facade is a structural design pattern that provides a simplied interface to a library, a framework, or any
+ * other complex set of classes.
+ */
 #include <iostream>
 using namespace std;
 
